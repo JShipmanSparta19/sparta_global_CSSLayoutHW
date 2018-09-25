@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  font-family: helvetica, sans-serif;
+}
+
+.mainbody{
+  width: 70%;
+  margin: auto;
+}
+
+/* main sections styles */
+header{
+  /* background-color: yellow; */
+  height: 200px;
+  text-align: center;
+  overflow: auto;
+  border-bottom: lightgrey 3px solid;
+  color: grey;
+}
+
+.content{
+  /* background-color: green; */
+  height: 500px;
+  width: 40%;
+  padding: 2%;
+  text-align: center;
+  display: inline-block;
+  border: lightgrey solid 5px;
+  border-radius: 10%;
+  margin: 2%
+}
+
+.Image{
+  /* background-color: red; */
+  height: 500px;
+  width: 46%;
+  padding: 2%;
+  display: inline-block;
+  float: right;
+  text-align: center;
+}
+
+footer{
+  /* background-color: orange; */
+  overflow: auto;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Element Styles */
+
+h1{
+  font-family: serif;
+  font-size: 36pt;
+  text-decoration: underline;
+  color: black;
+}
+
+img{
+  width: 100%;
+  margin-top: 50px;
+}
+
+li{
+  display: inline-block;
+  margin-right: 10px;
+  list-style: none;
+}
+
+/* subclass styles */
+/* Boxes to be typed in */
+
+.signup{
+  margin-top: 40px;
+  color: grey;
+}
+
+.typebox{
+  background-color: lightgrey;
+  list-style: none;
+  margin: 5px;
+  text-align: left;
+  padding: 2px 10px;
+  border-radius: 25%;
+}
+
+.nextbutton{
+  background-color: blue;
+  padding: 1px;
+  border-radius: 25%;
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.nextbutton a:link{
+  color: white;
+  text-decoration: none;
+}
+
+.nextbutton a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.privacy{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.privacy a:visited, .privacy a:link{
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
